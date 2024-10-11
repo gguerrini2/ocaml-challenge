@@ -1,0 +1,1 @@
+let mux a b s = not ((a && (not s)) && (a && s));;
