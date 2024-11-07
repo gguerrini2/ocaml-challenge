@@ -1,0 +1,1 @@
+let minmax a b c = (max (max a b) (max b c)), (min (min a b) (min b c))
