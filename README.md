@@ -29,16 +29,24 @@ It is suggested to work on exercises using a local installation of OCaml.
 
 ## Level 2
 
-1. [Comparing fractions](2/fractions)
-1. [Consensus3](2/consensus3)
-1. [Tris](2/tris)
-1. [Poker](2/poker)
-1. [Straight](2/straight)
-1. [Loaded dice](2/loaded-dice)
-1. [Morra](2/morra)
-1. [Sum range](2/sumrange)
-1. [Count zeros of a function](2/countzero)
-1. [Has one](2/has-one)
+Function composition
+Flip arguments
+Both true
+Pipe operator
+Option map
+Optional application
+Alternative
+Conditional application
+Restrict domain
+From type to function
+Characteristic functions
+Comparing fractions
+Consensus3
+Tris
+Poker
+Straight
+Loaded dice
+Morra
 
 ## Level 3
 
