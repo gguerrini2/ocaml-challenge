@@ -18,6 +18,8 @@ assert (sumrange 3 2 = 0);;
 
 let gauss x y = (x+y) * ((y - x + 1) / 2);;
 
+let rec count x y c = if y > x then (count (x+1) y (c+1)) else c+1;;
+
 let sumrange x y = if(x < y) then 
-  if(y mod 2 = 0) then (gauss x y) else (gauss x (y-1)) + y 
+  if((count x y 0) mod 2 = 0) then (gauss x y) else (gauss x (y-1)) + y 
 else 0;;
