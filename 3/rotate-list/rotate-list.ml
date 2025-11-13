@@ -21,7 +21,9 @@ let rec splitt l1 l2 n = match l1, l2, n with
 | x, y, z when z=0 -> y@x
 | x, y::rest, z -> splitt (x@[y]) rest (z-1);;
 
-let rotate n l = if(List.length l > n) then l else splitt [] l n;; 
+let rotate n l = if(List.length l < n) then l else splitt [] l n;; 
+
+rotate 1 [5;6;7;8];;
 
 assert(rotate 0 [5;6;7;8] = [5;6;7;8]);;  
 assert(rotate 1 [5;6;7;8] = [6;7;8;5]);;  
